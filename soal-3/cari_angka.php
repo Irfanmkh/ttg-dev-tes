@@ -7,13 +7,12 @@ function cariAngka($arr)
     $hilang = [];
 
 
-
+    // cek angka yang hilang
     for ($i = $min; $i <= $max; $i++) {
         if (!in_array($i, $arr)) {
             $hilang[] = $i;
         }
     }
-
 
     if (empty($hilang)) {
         return "Lengkap, tidak ada angka yang hilang";

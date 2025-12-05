@@ -1,6 +1,5 @@
 <?php
 
-// Bikin semua urutan kemungkinan dari array angka
 function permutasi($arr)
 {
     if (count($arr) == 1) {
