@@ -3,8 +3,12 @@
 1. Install dependencies
    ```npm
    npm install
-2. Buat database MySQL
+2. Buat database (mysql)
 - Buat database dengan nama node_api (atau bisa sesuaikan di index.js)
+```
+CREATE DATABASE node_api;
+USE node_api;
+```
 - Gunakan port 3308 (atau bisa sesuaikan di index.js)
 - buat tabel users :
 ```sql
